@@ -1,0 +1,181 @@
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f7f4;
+    color: #26352c;
+}
+
+
+/* Header */
+
+header {
+    background: #173f35;
+    color: white;
+    padding: 30px 8%;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+nav a:hover {
+    color: #e0b15a;
+}
+
+
+/* Search Section */
+
+.search {
+    text-align: center;
+    padding: 40px 20px;
+    background: #e8eee9;
+}
+
+.search h2 {
+    margin-bottom: 20px;
+}
+
+.search form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search input {
+    width: 320px;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+button {
+    background: #d5963d;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #b97827;
+}
+
+
+/* Properties */
+
+#properties {
+    padding: 45px 8%;
+    text-align: center;
+}
+
+#properties h2 {
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #d5d5d5;
+    text-align: left;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.image {
+    height: 140px;
+    background: #dce7df;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 8px 0;
+    color: #666;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+
+/* About */
+
+.about {
+    padding: 45px 15%;
+    text-align: center;
+    background: #e8eee9;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+}
+
+.about p {
+    line-height: 1.7;
+}
+
+
+/* Contact */
+
+.contact {
+    text-align: center;
+    padding: 45px 20px;
+}
+
+.contact h2 {
+    margin-bottom: 12px;
+}
+
+.contact p {
+    margin-bottom: 20px;
+}
+
+
+/* Footer */
+
+footer {
+    background: #173f35;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+```
